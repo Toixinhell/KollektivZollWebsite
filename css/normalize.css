@@ -1,5 +1,44 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#section0,
+#section1,
+#section2,
+#section3{
+    background-size: cover;
+}
 
+/* Defining each sectino background and styles
+* --------------------------------------- */
+#section0{
+    background-image: url(images\Naukluft_National_Park.jpg);
+    padding: 30% 0 0 0;
+}
+#section2{
+    background-image: url(images/1165061417.jpg);
+    padding: 6% 0 0 0;
+}
+#section3{
+    background-image: url(images/Naukluft_National_Park.jpg);
+    padding: 6% 0 0 0;
+}
+#section3 h1{
+    color: #222222;
+}
+
+
+/*Adding background for the slides
+* --------------------------------------- */
+/*
+#slide1{
+    background-image: url(imgs/bg2.jpg);
+    padding: 6% 0 0 0;
+}
+#slide2{
+    background-image: url(imgs/bg5.jpg);
+    padding: 6% 0 0 0;
+}
+*/
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
