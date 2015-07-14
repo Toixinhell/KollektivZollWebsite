@@ -1,0 +1,53 @@
+
+/**
+ * You shall not pass !
+ * here begins the horror
+
+
+/* Fixed header and footer.
+* --------------------------------------- */
+#header, #footer{
+    position:fixed;
+    height: 50px;
+    display:block;
+    width: 100%;
+    background: #333;
+    z-index:9;
+    text-align:center;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
+}
+
+#header{
+    top:0px;
+}
+#footer{
+    bottom:0px;
+}
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+.section{
+    background-size: cover;
+}
+
+.slide{
+    background-size: cover;
+}
+
+/* Defining each sectino background and styles
+* --------------------------------------- */
+#section0{
+    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg);
+
+}
+#section2{
+    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg3.jpg);
+
+}
+#section3{
+    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg);
+
+}
+#section3 h1{
+    color: #000;
+}
